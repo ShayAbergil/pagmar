@@ -11,11 +11,11 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/bio" element={<BioQuestions />} />
+       {/* <Route path="/bio" element={<BioQuestions />} />
         <Route path="/general" element={<GeneralQuestions />} />
         <Route path="/subjects" element={<SubjectSelection />} />
         <Route path="/survey/:subjectId" element={<SurveyQuestions />} />
-        <Route path="/finish" element={<Finish />} />
+        <Route path="/finish" element={<Finish />} /> */}
       </Routes>
     </Router>
   );
